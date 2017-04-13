@@ -1,6 +1,66 @@
 * {box-sizing: border-box;}
 
 #app-container {
-  margin: 0 auto;
+  margin: 3% auto;
   max-width: 1200px;
+}
+
+.main-content {
+  width: 90%;
+  margin: 15px auto 15px auto;
+}
+
+.profile {
+  display: inline-block;
+  width: 48%;
+}
+
+.profile img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.nav {
+  text-align: right;
+}
+
+.logo {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.logo span {
+  padding-top: 50px;
+  padding-left: 35px;
+  padding-right: 5px;
+  background-color: #072351;
+  color: white;
+  font-size: 45px;
+  margin: 0 10px;
+}
+
+.nav a {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.portfolio img {
+  display: inline-block;
+  width: 28%;
+}
+
+.about p {
+  line-height: 2;
+}
+
+.work {
+  border: none;
+}
+
+.work-h {
+  margin: 18px auto;
+  font-size: 45px;
+  color: black;
+  font-weight: 300;
+  width: 15%;
 }
