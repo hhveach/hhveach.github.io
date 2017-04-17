@@ -7,7 +7,7 @@
 
 .main-content {
   width: 90%;
-  margin: 15px auto 15px auto;
+  margin: 15px auto 175px auto;
 }
 
 .profile {
@@ -29,6 +29,13 @@
   margin: 0 auto;
 }
 
+.logo a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+}
+
 .logo span {
   padding-top: 50px;
   padding-left: 35px;
@@ -37,11 +44,13 @@
   color: white;
   font-size: 45px;
   margin: 0 10px;
+  font-weight: 400;
 }
 
 .nav a {
-  font-size: 30px;
+  font-size: 35px;
   margin-right: 5px;
+  color: #072351;
 }
 
 .portfolio img {
@@ -51,6 +60,11 @@
 
 .about p {
   line-height: 2;
+}
+
+.about h1 {
+  font-weight: 300;
+  font-size: 45px;
 }
 
 .work {
