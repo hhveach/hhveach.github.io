@@ -9,14 +9,18 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
    <link rel="stylesheet" href="./styles/styles.css">
+   <link rel="stylesheet" type="text/css" href="./slickTwo/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="./slickTwo/slick/slick-theme.css"/>
 </head>
 <body>
 <div id="app-container">
 
     <div class="logo">
       <a target="_blank" href="https://docs.google.com/document/d/1jSwMgSws6nxCTOximb0gEBupZNque4v7a63R3MIMhz8/edit?usp=sharing">Resume</a>
-      <span>HV</span>
       <a href="#port">Portfolio</a>
+      <span>HV</span>
+      <a href="#sk">Skills</a>
+      <a href="#contact">Contact</a>
     </div>
 
     <div class="main-content">
@@ -32,8 +36,8 @@
   <h1 class="work-h">WORK</h1>
 
   <div class="container" id="port">
-    <div class="row">
-      <div class="col-sm-3 col-md-4">
+    <!-- <div class="row">
+      <div class="col-sm-3 col-md-4"> -->
         <div class="thumbnail work">
           <img src="./images/bike.png">
           <div class="caption">
@@ -47,10 +51,10 @@
             <a target="_blank" href="https://hhveach.github.io/bike-safe/" class="btn btn-default" role="button"><i class="fa fa-bolt" aria-hidden="true"></i></a>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
 
 
-      <div class="col-sm-3 col-md-4">
+      <!-- <div class="col-sm-3 col-md-4"> -->
         <div class="thumbnail work">
           <img src="./images/etsy.png">
           <div class="caption">
@@ -63,11 +67,9 @@
             <a target="_blank" href="https://hhveach.github.io/assignment-21" class="btn btn-default" role="button"><i class="fa fa-bolt" aria-hidden="true"></i></a>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
 
-
-
-      <div class="col-sm-3 col-md-4">
+    <!-- <div class="col-sm-3 col-md-4"> -->
         <div class="thumbnail work">
           <img src="./images/stride.png">
           <div class="caption">
@@ -78,21 +80,16 @@
           </div>
         </div>
       </div>
-    </div>
-      </div>
+    <!-- </div>
+      </div> -->
+
+      <!-- <div class="carousel">
+        <div><img src="./images/bike.png"></div>
+        <div><img src="./images/etsy.png"></div>
+        <div><img src="./images/stride.png"></div>
+      </div> -->
 
       <h1 class="work-h">SKILLS</h1>
-
-      <!-- <div class="skills" id="sk">
-        <p>React (flux)</p>
-        <p>Javascript</p>
-        <p>Backbone</p>
-        <p>Git/Github</p>
-        <p>HTML</p>
-        <p>CSS/SCSS</p>
-        <p>JQuery</p>
-        <p>MongoDB</p>
-      </div> -->
 
       <div class="skills" id="sk">
         <p>
@@ -102,18 +99,11 @@
           <i class="devicon-jquery-plain-wordmark"></i>
         </p>
 
-        <!-- <p><i class="devicon-javascript-plain"></i></p> -->
-        <!-- <p><i class="devicon-backbonejs-plain-wordmark"></i></p> -->
-        <!-- <p><i class="devicon-jquery-plain-wordmark"></i></p> -->
-
         <p>
           <i class="devicon-git-plain-wordmark"></i>
           <i class="devicon-github-plain-wordmark"></i>
           <i class="devicon-mongodb-plain-wordmark"></i>
         </p>
-
-        <!-- <p><i class="devicon-github-plain-wordmark"></i></p> -->
-        <!-- <p><i class="devicon-mongodb-plain-wordmark"></i></p> -->
 
         <p>
           <i class="devicon-html5-plain-wordmark"></i>
@@ -121,11 +111,6 @@
           <i class="devicon-sass-original"></i>
           <i class="devicon-bootstrap-plain-wordmark"></i>
         </p>
-
-        <!-- <p><i class="devicon-css3-plain-wordmark"></i></p> -->
-        <!-- <p><i class="devicon-sass-original"></i></p> -->
-        <!-- <p><i class="devicon-bootstrap-plain-wordmark"></i></p> -->
-
       </div>
 
       <h1 class="work-h">CONTACT</h1>
@@ -137,6 +122,9 @@
       </div>
 
 </div>
-  <script src="./main.js" ></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="./js/main.js" ></script>
+<script type="text/javascript" src="./slickTwo/slick/slick.min.js"></script>
 </body>
 </html>

@@ -6,6 +6,20 @@
   padding-top: 25px;
 }
 
+.slick-prev, .slick-next {
+  background: black;
+}
+
+/*.carousel {
+  margin: 100px auto;
+  width: 45%;
+}
+
+.carousel img {
+  width: 100%;
+  margin: 0 auto;
+}*/
+
 .main-content {
   width: 90%;
   margin: 15px auto 175px auto;
@@ -13,6 +27,7 @@
 
 .container {
   margin-bottom: 175px;
+  width: 65%;
 }
 
 .profile {
@@ -26,7 +41,7 @@
 }
 
 .logo {
-  width: 35%;
+  width: 40%;
   margin: 0 auto;
   text-align: center;
 }
@@ -36,6 +51,7 @@
   text-decoration: none;
   font-size: 20px;
   font-weight: 200;
+  margin: 8px;
 }
 
 .logo span {
@@ -77,6 +93,10 @@
   border: none;
 }
 
+.caption {
+  text-align: center;
+}
+
 .work-h {
   margin: 18px auto;
   text-align: center;
@@ -102,4 +122,9 @@
 
 .skills p {
   margin: 25px auto;
+}
+
+.firsthover {
+  background-color: green;
+  opacity: .6;
 }
