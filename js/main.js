@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.container').slick({
-    dots: true,
+    dots: false,
     arrows: true,
     adaptiveHeight: true,
     mobileFirst: true
