@@ -6,6 +6,22 @@
   padding-top: 25px;
 }
 
+.live {
+  z-index: 100;
+  position: absolute;
+  bottom: -10%;
+  right: 10%;
+  display: none;
+  font-size: 16px;
+  color: white;
+  background-color: #072351;
+  padding: 10px;
+  /*border-radius: 30%;*/
+}
+.live span {
+  margin: 0 5px;
+}
+
 .btn:focus,.btn:active, .thumbnail:focus, .thumbnail:active {
    outline: none !important;
 }
@@ -94,6 +110,7 @@
 
 .caption {
   text-align: center;
+  position: relative;
 }
 
 .caption i {
