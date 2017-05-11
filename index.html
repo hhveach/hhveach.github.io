@@ -15,111 +15,145 @@
 <body>
 <div id="app-container">
 
-    <div class="logo">
-      <a target="_blank" href="https://docs.google.com/document/d/1jSwMgSws6nxCTOximb0gEBupZNque4v7a63R3MIMhz8/edit?usp=sharing">Resume</a>
-      <a href="#port">Portfolio</a>
-      <span>HV</span>
-      <a href="#sk">Skills</a>
-      <a href="#contact">Contact</a>
+  <div class="jumbotron">
+    <div class="container top-cont">
+      <h1>Hank Veach</h1>
+      <h2>Software Engineer</h2>
+        <p>..."But what I do have are a very particular set of skills; skills I have acquired
+           from a <strike>very</strike> <strike>long</strike> great deal of <strike>career</strike> hard work. Skills that make me an <strike>nightmare</strike>
+           asset to people like you......I will look for you, I will find you, and I will <strike>kill</strike> code for you.”
+        </p>
+        <p><a href="#about" role="button"><i class="fa fa-lg fa-chevron-down" aria-hidden="true"></i></a></p>
     </div>
+  </div>
 
-    <div class="main-content">
-      <div class="profile img"><img src="./images/profile.jpg"/></div>
-      <div class="profile about">
-        <h1>My name is Hank Veach</h1>
-        <p>I am a Charleston native who found a passion for coding.
-           This passion is fueled by my superior work ethic and I combine these
-           to create exceptional web applications.</p>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#app-container">
+            <img alt="Brand" class="picture" src="./images/logoMe.png"/>
+          </a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a target="_blank" href="https://docs.google.com/document/d/1jSwMgSws6nxCTOximb0gEBupZNque4v7a63R3MIMhz8/edit?usp=sharing">Resume</a></li>
+          <li class="slow"><a href="#port">Work</a></li>
+          <li class="slow"><a href="#sk">Skills</a></li>
+          <li class="slow"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="container-fluid">
+      <div class="row">
+        <div class="profile image col-sm-12 col-md-6">
+          <img src="./images/profile.jpg" onmouseover='this.src="./images/mt.jpg"' onmouseout='this.src="./images/profile.jpg"'/>
+        </div>
+        <div class="profile about col-sm-12 col-md-6">
+          <p>I am a Charleston native who found a passion for coding.
+             This passion is fueled by my superior work ethic and I combine these
+             to create exceptional web applications. I also have a super big smile.
+          </p>
+        </div>
       </div>
     </div>
 
   <h1 class="work-h" id="port">WORK</h1>
 
-  <div class="container">
-    <!-- <div class="row">
-      <div class="col-sm-3 col-md-4"> -->
+  <div class="container projects-cont">
         <div class="thumbnail work">
-          <img src="./images/bike.png">
-          <div class="caption">
-            <h3>Bike Safe</h3>
-            <p>Bike Safe is a web application that enables users to find the safest biking route
-               in downtown Charleston. The application uses crowdsourced data from users to
-               identify and show current road hazards to ensure that users have the safest path
-               to their destination.
-            </p>
-            <h4>Built With:</h4>
-            <p>React, Backbone, HTML, SCSS, Javascript</p>
-            <a target="_blank" href="https://github.com/hhveach/bike-safe/tree/master/Application/src/Application.Web" class="btn btn-default" role="button"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a target="_blank" href="http://bike-safe.azurewebsites.net/#login" class="btn btn-default popup" role="button"><i class="fa fa-bolt" aria-hidden="true"></i></a>
-            <p class="live"><span>U: consumer@bike-safe.com</span> <span>P: qwer1234</span></p>
-          </div>
+            <img src="./images/bike.png">
+        <div class="work-hover">
+            <div class="caption">
+              <h3>Bike Safe</h3>
+                <p>Bike Safe is a web application that enables users to find the safest biking route
+                   in downtown Charleston. The application uses crowdsourced data from users to
+                   identify and show current road hazards to ensure that users have the safest path
+                   to their destination.
+                </p>
+              <h4>Built With:</h4>
+                <p>React, Backbone, HTML, SCSS, Javascript</p>
+                <a target="_blank" href="https://github.com/hhveach/bike-safe/tree/master/Application/src/Application.Web" class="btn btn-default" role="button"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a target="_blank" href="http://bike-safe.azurewebsites.net" class="btn btn-default popup" role="button"><i class="fa fa-bolt" aria-hidden="true"></i></a>
+              </div>
         </div>
-      <!-- </div> -->
+        </div>
 
         <div class="thumbnail work">
           <img src="./images/etsy.png">
-          <div class="caption">
-            <h3>Etsy Clone</h3>
-            <p>A clone of etsy.com using their API. Users can easily search
-               Etsy's offerings by category or by keyword. Users can also get
-               more detailed information about listed items by clicking on the
-               items where they are redirected to a single item information page.</p>
-               <h4>Built With:</h4>
-               <p>Backbone, HTML, SCSS, Javascript</p>
-            <a target="_blank" href="https://github.com/hhveach/assignment-21" class="btn btn-default" role="button"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a target="_blank" href="https://hhveach.github.io/assignment-21" class="btn btn-default" role="button"><i class="fa fa-bolt" aria-hidden="true"></i></a>
+          <div class="work-hover">
+            <div class="caption">
+              <h3>Etsy Clone</h3>
+                <p>A clone of etsy.com using their API. Users can easily search
+                   Etsy's offerings by category or by keyword. Users can also get
+                   more detailed information about listed items by clicking on the
+                   items where they are redirected to a single item information page.</p>
+              <h4>Built With:</h4>
+                 <p>Backbone, HTML, SCSS, Javascript</p>
+                 <a target="_blank" href="https://github.com/hhveach/assignment-21" class="btn btn-default" role="button"><i class="fa fa-github" aria-hidden="true"></i></a>
+                 <a target="_blank" href="https://hhveach.github.io/assignment-21" class="btn btn-default" role="button"><i class="fa fa-bolt" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
 
         <div class="thumbnail work">
-          <img src="./images/stride.png">
+            <img src="./images/momoTwo.png">
+        <div class="work-hover">
           <div class="caption">
-            <h3>Stride</h3>
-            <p>A clone of a website built from a mockup.</p>
+            <h3>Momofuku</h3>
+              <p>A responsive clone of Momofuku Restaurant Group.</p>
             <h4>Built With:</h4>
-            <p>HTML, CSS</p>
-            <a target="_blank" href="https://github.com/hhveach/assignment-04" class="btn btn-default" role="button"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a target="_blank" href="https://hhveach.github.io/assignment-04" class="btn btn-default" role="button"><i class="fa fa-bolt" aria-hidden="true"></i></a>
+              <p>HTML, SCSS</p>
+            <a target="_blank" href="https://github.com/hhveach/assignment-07" class="btn btn-default" role="button"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://hhveach.github.io/assignment-07" class="btn btn-default" role="button"><i class="fa fa-bolt" aria-hidden="true"></i></a>
           </div>
+        </div>
         </div>
       </div>
 
       <h1 class="sk-one" id="sk">SKILLS</h1>
 
+
       <div class="skills">
-        <p>
-          <i class="devicon-react-original-wordmark"></i>
-          <i class="devicon-javascript-plain"></i>
-          <i class="devicon-backbonejs-plain-wordmark"></i>
-          <i class="devicon-jquery-plain-wordmark"></i>
-        </p>
-
-        <p>
-          <i class="devicon-git-plain-wordmark"></i>
-          <i class="devicon-github-plain-wordmark"></i>
-          <i class="devicon-mongodb-plain-wordmark"></i>
-        </p>
-
-        <p>
-          <i class="devicon-html5-plain-wordmark"></i>
-          <i class="devicon-css3-plain-wordmark"></i>
-          <i class="devicon-sass-original"></i>
-          <i class="devicon-bootstrap-plain-wordmark"></i>
-        </p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-react-original-wordmark"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-javascript-plain"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-backbonejs-plain-wordmark"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-jquery-plain-wordmark"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-babel-plain"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-git-plain-wordmark"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-github-plain-wordmark"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-mongodb-plain-wordmark"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-html5-plain-wordmark"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-css3-plain-wordmark"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-sass-original"></i></div>
+            <div class="col-xs-6 col-sm-4 col-md-3"><i class="devicon-bootstrap-plain-wordmark"></i></div>
+          </div>
+        </div>
       </div>
 
       <h1 class="work-h" id="contact">CONTACT</h1>
 
-      <div class="nav">
-        <a target="_blank" href="https://github.com/hhveach"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/hankveach"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a target="_blank" href="mailto:hhveach@yahoo.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+      <div class="the-bottom container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4">
+            <a target="_blank" href="https://github.com/hhveach"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4">
+            <a target="_blank" href="https://www.linkedin.com/in/hankveach"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4">
+            <a target="_blank" href="mailto:hhveach@yahoo.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          </div>
+        </div>
       </div>
 
 </div>
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="./js/main.js" ></script>
 <script type="text/javascript" src="./slickTwo/slick/slick.min.js"></script>
+
 </body>
 </html>
